@@ -1,7 +1,7 @@
 <?php
     
     putenv("PATH=https://github.com/jenbuebus/compileit/tree/master/bin");
-	$CC="gcc";
+	$CC="https://github.com/jenbuebus/compileit/blob/master/bin/gcc.exe";
 	$out="a.exe";
 	$code=$_POST["code"];
 	$input=$_POST["input"];
