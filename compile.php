@@ -1,9 +1,8 @@
-<?php
 
+
+<?php
 	$languageID=$_POST["language"];
         error_reporting(0);
-
-
 	if($_FILES["file"]["name"]!="")
 	{
 		include "compilers/make.php";
@@ -22,7 +21,6 @@
 					include("compilers/cpp.php");
 					break;
 				}
-
 				case "cpp11":
 				{
 					include("compilers/cpp11.php");
@@ -46,3 +44,4 @@
 			}
 	}
 ?>
+
