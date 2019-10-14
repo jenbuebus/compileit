@@ -1,6 +1,6 @@
 <?php
 
-    putenv("PATH=C:\Program Files (x86)\CodeBlocks\MinGW\bin");
+    putenv("PATH=https://github.com/jenbuebus/compileit/tree/master/bin");
 	$CC="g++";
 	$out="a.exe";
 	$code=$_POST["code"];
