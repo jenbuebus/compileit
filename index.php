@@ -95,7 +95,7 @@ td.bg
 <label for="ta">Write Your Code</label>
 <textarea class="form-control" name="code" rows="10" cols="50"></textarea><br><br>
 <label for="out">Output</label>
-<textarea id='div' class="form-control" name="output" rows="10" cols="50"></textarea><br><br>
+<textarea id='div' class="form-control" name="output" rows="50" cols="50"></textarea><br><br>
 
 <input type="submit" id="st" class="btn btn-success" value="Run Code"><br><br><br>
 
@@ -144,7 +144,7 @@ $(document).ready(function(){
 </script>
 </center>
 <center>
-<table width="85%" style="background-color: Black;">
+<table width="85%" style="background-color: #C0C0C0;">
 <tr width = "100%">
 	<td style="font-family: Tahoma; font-size:190%; font-weight:bold; width:100%; height:10%;
 	  color:white; 
