@@ -95,7 +95,7 @@ td.bg
 <label for="ta">Write Your Code</label>
 <textarea class="form-control" name="code" rows="10" cols="50"></textarea><br><br>
 <label for="out">Output</label>
-<textarea id='div' class="form-control" name="output" rows="50" cols="50"></textarea><br><br>
+<textarea id='div' class="form-control" name="output" rows="10" cols="50"></textarea><br><br>
 
 <input type="submit" id="st" class="btn btn-success" value="Run Code"><br><br><br>
 
