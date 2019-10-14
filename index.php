@@ -87,7 +87,6 @@ td.bg
 <select class="form-control" name="language">
 <option value="c">C</option>
 <option value="cpp">C++</option>
-<option value="java">Java</option>
 
 
 </select><br><br>
@@ -142,26 +141,8 @@ $(document).ready(function(){
     });
 });
 </script>
+
 </center>
-<center>
-<table width="85%" style="background-color: #C0C0C0;">
-<tr width = "100%">
-	<td style="font-family: Tahoma; font-size:190%; font-weight:bold; width:100%; height:10%;
-	  color:white; 
-	  text-align: center;
-	  background-color: #C0C0C0;">
-	  <text style="display: block; color: Black;
-	  text-align: left;
-	  padding:2.5%">
-	<text style="text-align: left; display: block; color:Black; ">
-	 <center><h4>All rights reserved 2019 <br>
-	  Philippines</h4>
-	  </text></td>
-</tr>
-<tr width = "100%" height="20%"><td></td>
-</tr>
-</center>
-</table>
 </body>
 </html>
 
