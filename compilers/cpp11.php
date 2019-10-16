@@ -1,7 +1,7 @@
 <?php
 
     putenv("PATH=C:\Program Files (x86)\CodeBlocks\MinGW\bin");
-	$CC="g++ -std=c++11";
+	$CC="g++";
 	$out="a.exe";
 	$code=$_POST["code"];
 	$input=$_POST["input"];
@@ -38,6 +38,7 @@
 			$out=$out." < ".$filename_in;
 			$output=shell_exec($out);
 		}
+		//echo "<pre>$output</pre>";
 		echo "$output";
               //echo "<textarea id='div' class=\"form-control\" name=\"output\" rows=\"10\" cols=\"50\">$output</textarea><br><br>";
 	}
