@@ -1,7 +1,7 @@
 <?php
     
-    putenv("PATH=https://github.com/jenbuebus/compileit/tree/master/bin");
-	$CC="https://github.com/jenbuebus/compileit/blob/master/bin/gcc.exe";
+    putenv("PATH=C:\Program Files (x86)\CodeBlocks\MinGW\bin");
+	$CC="gcc";
 	$out="a.exe";
 	$code=$_POST["code"];
 	$input=$_POST["input"];
